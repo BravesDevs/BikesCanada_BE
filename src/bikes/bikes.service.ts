@@ -48,7 +48,7 @@ export class BikesService {
             return 'success'
         }
         catch (err) {
-            throw err;
+            throw err;  
         }
     }
 }
