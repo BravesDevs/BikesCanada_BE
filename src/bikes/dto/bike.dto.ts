@@ -39,3 +39,27 @@ export class UpdateBikeRequest {
     @IsBoolean()
     is_maintained: boolean;
 }
+
+export class BookBikeRequest {
+    @IsString()
+    @IsNotEmpty()
+    bike_model: string;
+
+    @IsNumber()
+    @IsNotEmpty()
+    user_id: number;
+
+    @IsNumber()
+    @IsNotEmpty()
+    location_id: number;
+}
+
+export class BikeDropRequest {
+    @IsNumber()
+    @IsNotEmpty()
+    booking_id: number;
+
+    @IsNumber()
+    @IsNotEmpty()
+    location_id: number;
+}
