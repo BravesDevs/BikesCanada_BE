@@ -1,5 +1,5 @@
 import { Controller, Post, Req, Body, Get } from '@nestjs/common';
-import { CreateLocationRequest } from './dto/create-location.dto';
+import { CreateLocationRequest } from './dto/location.dto';
 import { LocationService } from './location.service';
 import { LocationType } from './interfaces/location.interface';
 import { BikeType } from 'src/bikes/interfaces/bike.interface';

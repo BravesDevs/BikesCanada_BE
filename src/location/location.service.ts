@@ -1,5 +1,5 @@
 import { ForbiddenException, Injectable } from '@nestjs/common';
-import { CreateLocationRequest } from './dto/create-location.dto';
+import { CreateLocationRequest } from './dto/location.dto';
 import { LocationType } from './interfaces/location.interface';
 import { PrismaService } from '../prisma.service';
 import { BikeType } from 'src/bikes/interfaces/bike.interface';
